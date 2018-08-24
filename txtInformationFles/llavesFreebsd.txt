@@ -1,0 +1,14 @@
+
+Public key route on freebsd
+***************************
+*                         *
+*  /root/.ssh/id_rsa.pub  *
+*                         *
+***************************
+
+Private key route on freebsd
+***************************
+*                         *
+*    /root/.ssh/id_rsa    *
+*                         *
+***************************

@@ -1,0 +1,63 @@
+#################
+# UTIL COMMANDS #  
+#################
+
+Basic commands on freebsd
+###############################################################################
+#                                                                             #
+# http://www.peam.es/cursos/free-learning/servidor-web/un-poco-de-freebsd.php #
+# https://realpython.com/headless-selenium-testing-with-python-and-phantomjs/ #
+#                                                                             #
+###############################################################################
+
+Commands to find text into some file 
+###############################
+#                             #
+#grep -r "texto" /directorio/ #
+#grep "texto" * -R            #
+#                             #
+###############################
+
+Commands to find files or folders
+###########################
+#                         #
+# find / -iname "command" #
+#                         #
+###########################
+
+For more information you can search these web pages
+***************************************************************************************
+*                                                                                     *
+* http://www.kernel-panic.it/openbsd/proxy/proxy5.html                                *
+* https://www.tecmint.com/configure-squidguard-for-squid-proxy/                       *
+* https://help.ubuntu.com/community/SquidGuard                                        *
+* https://metacpan.org/pod/distribution/App-elsquid/bin/elsquid                       *
+* https://gist.github.com/omtinez/8e05f4609cec76edb00d9420234b2ac3                    *
+* https://linuxtechlab.com/install-squidguard-with-squid-proxy-server-complete-guide/ *
+* https://wiki.amahi.org/index.php/SquidGuard                                         *
+*                                                                                     *
+***************************************************************************************
+
+You have to erase the cache memory to apply the new changes into system
+#############################################################
+#                                                           #
+# /bin/rm -f /tmp/config.cache                              #
+#                                                           #
+#############################################################
+
+Create DB files 
+#############################################################
+#                                                           # 
+# /usr/sbin/squidGuard -c /etc/squid/squidGuard.conf -C all #
+# squidGuard -b -d -C all                                   #
+# squidGuard -u -C all                                      #
+# squid -k recomfigure                                      #
+#                                                           #
+#############################################################
+
+If you modify this file you can write a new configuration 
+#############################################################
+#                                                           #
+# /cf/conf/config.xml                                       #
+#                                                           #
+#############################################################

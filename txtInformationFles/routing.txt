@@ -1,0 +1,46 @@
+#####################
+# SQUIDGUARD ROUTES #
+#####################
+
+Util routes
+########################## 
+#                        #
+# /var                   #
+# /var/db                #
+# /var/db/squidGuard     #
+#                        #
+# /usr                   #
+# /usr/local/pkg         #
+# /usr/local/www         #
+#                        #
+##########################
+
+Data base route 
+######################
+#                    #   
+# /var/db/squidGuard #
+#                    #
+######################
+
+Log files route
+######################################
+#                                    #
+# /var/squidGuard/log                #
+# /var/log/squidGuard/squidGuard.log #
+#                                    #
+######################################
+
+Configuration XML file route
+################################################# 
+#                                               #
+# /usr/local/etc/squid/squidGuard.conf          #
+# /usr/local/etc/squidGuard/squidguard_conf.xml #
+#                                               #
+#################################################
+
+Web page XML file route 
+#################################
+#                               #
+# /usr/local/pkg/squidguard.xml #
+#                               #  
+#################################
